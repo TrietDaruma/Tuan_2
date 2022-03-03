@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #div1{
+        width: 400px;
+        height: 200px;
+
+        border-style: double none;
+        border-color: red green;
+        border-width: 20px;
+        border-radius: 200px 0;
+        box-shadow: inset 0 0 50px 50px goldenrod;
+        
+        position: relative;
+        top: 100px;
+        left: 100px;
+        position: 1s;
+
+    }
+    #div1:hover{
+         transform: skew(45deg);   
+        }
+        body {
+            font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 960px;
+            margin: 0 auto;
+        }
+        
+        #tbl {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        #tbl th,
+        #tbl td {
+            border: 1px solid black;
+            height: 30px;
+        }
+        
+        #tbl thead tr :first-child {
+            background-color: grey;
+        }
+        
+        #tbl tr:nth-child() {
+            background-color: antiquewhite;
+        }
+        
+        #tbl tbody tr:nth-last-child() {
+            background-color: lightslategray;
+        }
+        *{
+            padding: 0px;
+            margin: auto;
+        }
+        .wrapper{
+            height: 700px;
+            width: 1089px;
+            background-color: antiquewhite;
+        }
+        header{
+            height: 150px;
+            width: 1089px;
+            background-color: aqua;        
+        }
+        nav{
+            height: 50px;
+            width: 1089px;
+            background-color: beige;
+        }
+        .content{
+            height: 300px;
+            width: 1089px;
+            background-color: blue;
+        }
+        footer{
+            height: 200px;
+            width: 1089px;
+            background-color: black;
+        }
+        aside{
+            height: 100%;
+            width: 40%;
+            background-color: blueviolet;
+        }
+        section{
+            height: 300px;
+            width: 60%;
+            background-color: burlywood;
+        }
+        .menu li{
+            height: 100%;
+            width: 200px;
+            float: left;
+            list-style-type: none;
+            line-height: 50px;
+            text-indent: 15px;
+            position: relative;
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: burlywood;
+        }
+        .menu li:hover{
+            background-color: pink;
+        }
+        li:hover>a{
+            font-style: italic;
+            font-weight: bold;
+            color: yellow;
+        }
+        .menu li .submenu{
+            display: none;
+            position: absolute;
+        }
+        .menu li:hover .submenu{
+            display: block;
+        }
+</style>
+<body>
+    <div id="div1"></div>
+    <table id="tbl">
+        <caption>Employee Information</caption>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+                <th>Emaild Address </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1345435</td>
+                <td>Lan</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+   
+</body>
+</html>
